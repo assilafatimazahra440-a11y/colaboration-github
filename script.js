@@ -29,6 +29,7 @@ options.forEach((image,index) => {
 
         // Met à jour l'image du joueur 
        userResult.src = userSrc;
+       
 
     let randomNumber = Math.floor(Math.random() * 3);
     let otherimg = ["images/rock.png", "images/paper.png", "images/scissors.png"];
