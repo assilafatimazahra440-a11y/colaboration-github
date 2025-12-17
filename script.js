@@ -22,6 +22,7 @@ options.forEach((image,index) => {
         options.forEach((images2, index2) => {
             // console.log(index, index2);
             index !== index2 && images2.classList.remove("active");
+            git 
         });
         
     const chosenImg = image.querySelector("img"); 
